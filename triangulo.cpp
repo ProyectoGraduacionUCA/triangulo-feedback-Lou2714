@@ -5,7 +5,7 @@ using namespace std;
 void imprimirTriangulo(int altura) {
     for (int i = 1; i <= altura; i++)
     {
-        //Mientras el valor de j sea menos que i, va a imprimir j-veces el *, simboliza columnas
+        //Mientras el valor de j sea menos que i, va a imprimir j-veces el *, simboliza columna
         for (int j = 0; j < i; j++)
         {
             cout << "*";
